@@ -8,7 +8,7 @@ export default function App() {
     <div>
       
       <Routes>
-        <Route path="/" element={<Loginpage />} />
+        <Route path="/loginpage" element={<Loginpage />} />
         <Route path="/inside" element={<Inside/>} />
       </Routes>
     </div>
