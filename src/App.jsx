@@ -8,7 +8,7 @@ export default function App() {
     <div>
       
       <Routes>
-        <Route path="/react-frontendlogbook/" element={<Loginpage />} />
+        <Route path="/" element={<Loginpage />} />
         <Route path="/inside" element={<Inside/>} />
       </Routes>
     </div>

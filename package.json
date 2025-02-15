@@ -1,7 +1,7 @@
 {
   "name": "react-frontendlogbook",
   "private": "true",
-  "homepage":"https://Sabareesh-SS.github.io/react-frontendlogbook/",
+  "homepage": "https://Sabareesh-SS.github.io/loginpage/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
@@ -9,10 +9,11 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy":"npm run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "gh-pages": "^6.3.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-router-dom": "^7.1.5",
